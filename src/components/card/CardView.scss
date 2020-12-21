@@ -1,0 +1,22 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+
+@import "../variables";
+
+.CardView {
+	margin: 20px;
+	padding: 20px;
+	background: $background;
+	border-radius: 10px;
+	box-shadow: 0 0 5px $background;
+	border: solid $black 1px;
+	display: flex;
+}
+
+.CardView > * {
+	display: block;
+}

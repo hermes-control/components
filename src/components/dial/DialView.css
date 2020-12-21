@@ -1,0 +1,33 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+.DialView {
+  position: relative;
+}
+.DialView .textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  width: 100%;
+  padding-top: 10%;
+}
+.DialView .textContainer .name {
+  font-weight: lighter;
+}
+.DialView .textContainer .value {
+  font-weight: bold;
+}
+.DialView .circle {
+  position: absolute;
+  top: 0;
+}
+.DialView circle {
+  transition: all 250ms ease-in-out;
+}
+
+/*# sourceMappingURL=DialView.css.map */

@@ -1,0 +1,22 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+.ProgressBarView {
+  height: 20px;
+  background: #444;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 4px;
+}
+.ProgressBarView .inner {
+  height: 100%;
+  background: #abb2bf;
+  border-radius: 20px;
+  transition: width 250ms ease-in-out;
+}
+
+/*# sourceMappingURL=ProgressBarView.css.map */

@@ -1,0 +1,41 @@
+/**
+ * Elijah Cobb
+ * elijah@elijahcobb.com
+ * elijahcobb.com
+ * github.com/elijahjcobb
+ */
+
+.DialView {
+
+	position: relative;
+
+	.textContainer {
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 90%;
+		width: 100%;
+		padding-top: 10%;
+
+		.name {
+			font-weight: lighter;
+		}
+
+		.value {
+			font-weight: bold;
+		}
+
+	}
+
+	.circle {
+		position: absolute;
+		top: 0;
+	}
+
+	circle {
+		transition: all 250ms ease-in-out;
+	}
+
+}
